@@ -1,0 +1,34 @@
+{
+    "slider-layout#home": {
+        "children": [
+            "image#banner1",
+            "image#banner2"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 7000,
+                "StopOnHover": false
+            },
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1
+            },
+            "maxHeight": 912
+        }
+    },
+    "image#banner1": {
+        "props": {
+            "src": "https://hiringcoders2021.vteximg.com.br/arquivos/imagemBanner2.png"
+        }
+    },
+    "image#banner2": {
+        "props": {
+            "src": "https://hiringcoders2021.vteximg.com.br/arquivos/imagemBanner1.png"
+        }
+    },
+    "slider-layout#home-products": {
+        "props": {
+            "itemsPerPage": 4
+        }
+    }
+}
